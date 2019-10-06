@@ -17,10 +17,13 @@ int main(int argc, char **argv) {
     tokenizing_state_machine(txt_file, token_type,token_input,token_linenum);
     txt_file.close();
     //-----implementation of Project 01 ends with my now finished token lists
-    //for (int i=0; i<token_type.size(); i++)
-    //    cout<<'('<<token_type[i]<<",\""<<token_input[i]<<"\","<<token_linenum[i]<<')'<<endl;
-    //cout<<"list_lize<total tokens> = "<<token_type.size();
+
+    /*for (int i=0; i<token_type.size(); i++)
+        cout<<'('<<token_type[i]<<",\""<<token_input[i]<<"\","<<token_linenum[i]<<')'<<endl;
+    cout<<"list_lize<total tokens> = "<<token_type.size();
+    cout<<endl;*/
     dataLogProgram(token_type,token_input,token_linenum);
+    print_out_string();
 
     return 0;
 }

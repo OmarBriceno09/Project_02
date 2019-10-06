@@ -9,6 +9,7 @@
 #include <stdio.h>
 #include <ctype.h>
 #include <vector>
+#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -30,8 +31,31 @@ void tokenizing_state_machine(ifstream&,vector<string>&, vector<string>&, vector
 void push_to_input_vectors(string, string, int, vector<string>&, vector<string>&, vector<int>&);
 
 void dataLogProgram(vector<string>&, vector<string>&, vector<int>&);
+
+void schemeList(int&, vector<string>&, vector<string>&, vector<int>&);
+void factList(int&, vector<string>&, vector<string>&, vector<int>&);
+void ruleList(int&, vector<string>&, vector<string>&, vector<int>&);
+void queryList(int&, vector<string>&, vector<string>&, vector<int>&);
+
 void scheme(int&, vector<string>&, vector<string>&, vector<int>&);
+void fact(int&, vector<string>&, vector<string>&, vector<int>&);
+void rule(int&, vector<string>&, vector<string>&, vector<int>&);
+void query(int&, vector<string>&, vector<string>&, vector<int>&);
+
+void headPredicate(int&, vector<string>&, vector<string>&, vector<int>&, string&);
+void predicate(int&, vector<string>&, vector<string>&, vector<int>&, string&);
+
+void predicateList(int&, vector<string>&, vector<string>&, vector<int>&, string&);
+void parameterList(int&, vector<string>&, vector<string>&, vector<int>&, string&);
+void stringList(int&, vector<string>&, vector<string>&, vector<int>&, string&);
+void idList(int&, vector<string>&, vector<string>&, vector<int>&, string&);
+
+void parameter(int&, vector<string>&, vector<string>&, vector<int>&, string&);
+void expression(int&, vector<string>&, vector<string>&, vector<int>&, string&);
+void the_operator(int&, vector<string>&, vector<string>&, vector<int>&, string&);
+
 bool does_token_match(string, const string[], int);
+void print_out_string();
 
 //declaring first sets
 const string dP_first = "SCHEMES";

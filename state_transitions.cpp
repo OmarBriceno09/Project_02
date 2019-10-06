@@ -59,7 +59,10 @@ bool is_it_keyid(string id){
 }
 
 void push_to_input_vectors(string id, string out, int ln, vector<string> &t_type, vector<string> &t_out, vector<int> &t_ln){
-    t_type.push_back(id);
-    t_out.push_back(out);
-    t_ln.push_back(ln);
+    //Project 2 edit:
+    if (id!="COMMENT") {
+        t_type.push_back(id);
+        t_out.push_back(out);
+        t_ln.push_back(ln);
+    }
 }
