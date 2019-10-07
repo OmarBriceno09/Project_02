@@ -96,25 +96,67 @@ CMakeFiles/Project_02.dir/tokenizer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_02.dir/tokenizer.cpp.s"
 	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/OmarB/Desktop/BYU-2019FALL/CS-236/Project_02/tokenizer.cpp -o CMakeFiles/Project_02.dir/tokenizer.cpp.s
 
-CMakeFiles/Project_02.dir/datalogGrammar.cpp.o: CMakeFiles/Project_02.dir/flags.make
-CMakeFiles/Project_02.dir/datalogGrammar.cpp.o: ../datalogGrammar.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/OmarB/Desktop/BYU-2019FALL/CS-236/Project_02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Project_02.dir/datalogGrammar.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_02.dir/datalogGrammar.cpp.o -c /cygdrive/c/Users/OmarB/Desktop/BYU-2019FALL/CS-236/Project_02/datalogGrammar.cpp
+CMakeFiles/Project_02.dir/DatalogProgram.cpp.o: CMakeFiles/Project_02.dir/flags.make
+CMakeFiles/Project_02.dir/DatalogProgram.cpp.o: ../DatalogProgram.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/OmarB/Desktop/BYU-2019FALL/CS-236/Project_02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Project_02.dir/DatalogProgram.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_02.dir/DatalogProgram.cpp.o -c /cygdrive/c/Users/OmarB/Desktop/BYU-2019FALL/CS-236/Project_02/DatalogProgram.cpp
 
-CMakeFiles/Project_02.dir/datalogGrammar.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_02.dir/datalogGrammar.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/OmarB/Desktop/BYU-2019FALL/CS-236/Project_02/datalogGrammar.cpp > CMakeFiles/Project_02.dir/datalogGrammar.cpp.i
+CMakeFiles/Project_02.dir/DatalogProgram.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_02.dir/DatalogProgram.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/OmarB/Desktop/BYU-2019FALL/CS-236/Project_02/DatalogProgram.cpp > CMakeFiles/Project_02.dir/DatalogProgram.cpp.i
 
-CMakeFiles/Project_02.dir/datalogGrammar.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_02.dir/datalogGrammar.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/OmarB/Desktop/BYU-2019FALL/CS-236/Project_02/datalogGrammar.cpp -o CMakeFiles/Project_02.dir/datalogGrammar.cpp.s
+CMakeFiles/Project_02.dir/DatalogProgram.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_02.dir/DatalogProgram.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/OmarB/Desktop/BYU-2019FALL/CS-236/Project_02/DatalogProgram.cpp -o CMakeFiles/Project_02.dir/DatalogProgram.cpp.s
+
+CMakeFiles/Project_02.dir/Rule.cpp.o: CMakeFiles/Project_02.dir/flags.make
+CMakeFiles/Project_02.dir/Rule.cpp.o: ../Rule.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/OmarB/Desktop/BYU-2019FALL/CS-236/Project_02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Project_02.dir/Rule.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_02.dir/Rule.cpp.o -c /cygdrive/c/Users/OmarB/Desktop/BYU-2019FALL/CS-236/Project_02/Rule.cpp
+
+CMakeFiles/Project_02.dir/Rule.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_02.dir/Rule.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/OmarB/Desktop/BYU-2019FALL/CS-236/Project_02/Rule.cpp > CMakeFiles/Project_02.dir/Rule.cpp.i
+
+CMakeFiles/Project_02.dir/Rule.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_02.dir/Rule.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/OmarB/Desktop/BYU-2019FALL/CS-236/Project_02/Rule.cpp -o CMakeFiles/Project_02.dir/Rule.cpp.s
+
+CMakeFiles/Project_02.dir/Predicate.cpp.o: CMakeFiles/Project_02.dir/flags.make
+CMakeFiles/Project_02.dir/Predicate.cpp.o: ../Predicate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/OmarB/Desktop/BYU-2019FALL/CS-236/Project_02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Project_02.dir/Predicate.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_02.dir/Predicate.cpp.o -c /cygdrive/c/Users/OmarB/Desktop/BYU-2019FALL/CS-236/Project_02/Predicate.cpp
+
+CMakeFiles/Project_02.dir/Predicate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_02.dir/Predicate.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/OmarB/Desktop/BYU-2019FALL/CS-236/Project_02/Predicate.cpp > CMakeFiles/Project_02.dir/Predicate.cpp.i
+
+CMakeFiles/Project_02.dir/Predicate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_02.dir/Predicate.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/OmarB/Desktop/BYU-2019FALL/CS-236/Project_02/Predicate.cpp -o CMakeFiles/Project_02.dir/Predicate.cpp.s
+
+CMakeFiles/Project_02.dir/Parameter.cpp.o: CMakeFiles/Project_02.dir/flags.make
+CMakeFiles/Project_02.dir/Parameter.cpp.o: ../Parameter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/OmarB/Desktop/BYU-2019FALL/CS-236/Project_02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Project_02.dir/Parameter.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_02.dir/Parameter.cpp.o -c /cygdrive/c/Users/OmarB/Desktop/BYU-2019FALL/CS-236/Project_02/Parameter.cpp
+
+CMakeFiles/Project_02.dir/Parameter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_02.dir/Parameter.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/OmarB/Desktop/BYU-2019FALL/CS-236/Project_02/Parameter.cpp > CMakeFiles/Project_02.dir/Parameter.cpp.i
+
+CMakeFiles/Project_02.dir/Parameter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_02.dir/Parameter.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/OmarB/Desktop/BYU-2019FALL/CS-236/Project_02/Parameter.cpp -o CMakeFiles/Project_02.dir/Parameter.cpp.s
 
 # Object files for target Project_02
 Project_02_OBJECTS = \
 "CMakeFiles/Project_02.dir/main.cpp.o" \
 "CMakeFiles/Project_02.dir/state_transitions.cpp.o" \
 "CMakeFiles/Project_02.dir/tokenizer.cpp.o" \
-"CMakeFiles/Project_02.dir/datalogGrammar.cpp.o"
+"CMakeFiles/Project_02.dir/DatalogProgram.cpp.o" \
+"CMakeFiles/Project_02.dir/Rule.cpp.o" \
+"CMakeFiles/Project_02.dir/Predicate.cpp.o" \
+"CMakeFiles/Project_02.dir/Parameter.cpp.o"
 
 # External object files for target Project_02
 Project_02_EXTERNAL_OBJECTS =
@@ -122,10 +164,13 @@ Project_02_EXTERNAL_OBJECTS =
 Project_02.exe: CMakeFiles/Project_02.dir/main.cpp.o
 Project_02.exe: CMakeFiles/Project_02.dir/state_transitions.cpp.o
 Project_02.exe: CMakeFiles/Project_02.dir/tokenizer.cpp.o
-Project_02.exe: CMakeFiles/Project_02.dir/datalogGrammar.cpp.o
+Project_02.exe: CMakeFiles/Project_02.dir/DatalogProgram.cpp.o
+Project_02.exe: CMakeFiles/Project_02.dir/Rule.cpp.o
+Project_02.exe: CMakeFiles/Project_02.dir/Predicate.cpp.o
+Project_02.exe: CMakeFiles/Project_02.dir/Parameter.cpp.o
 Project_02.exe: CMakeFiles/Project_02.dir/build.make
 Project_02.exe: CMakeFiles/Project_02.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/OmarB/Desktop/BYU-2019FALL/CS-236/Project_02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Project_02.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/OmarB/Desktop/BYU-2019FALL/CS-236/Project_02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Project_02.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Project_02.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

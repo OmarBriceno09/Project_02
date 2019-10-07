@@ -80,7 +80,28 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/c/Users/OmarB/Desktop/BYU-2019FALL/CS-236/Project_02/datalogGrammar.cpp">
+		<Unit filename="/cygdrive/c/Users/OmarB/Desktop/BYU-2019FALL/CS-236/Project_02/DatalogProgram.cpp">
+			<Option target="Project_02"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/OmarB/Desktop/BYU-2019FALL/CS-236/Project_02/DatalogProgram.h">
+			<Option target="Project_02"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/OmarB/Desktop/BYU-2019FALL/CS-236/Project_02/Parameter.cpp">
+			<Option target="Project_02"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/OmarB/Desktop/BYU-2019FALL/CS-236/Project_02/Parameter.h">
+			<Option target="Project_02"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/OmarB/Desktop/BYU-2019FALL/CS-236/Project_02/Predicate.cpp">
+			<Option target="Project_02"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/OmarB/Desktop/BYU-2019FALL/CS-236/Project_02/Predicate.h">
+			<Option target="Project_02"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/OmarB/Desktop/BYU-2019FALL/CS-236/Project_02/Rule.cpp">
+			<Option target="Project_02"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/OmarB/Desktop/BYU-2019FALL/CS-236/Project_02/Rule.h">
 			<Option target="Project_02"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/OmarB/Desktop/BYU-2019FALL/CS-236/Project_02/main.cpp">

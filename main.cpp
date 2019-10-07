@@ -22,8 +22,8 @@ int main(int argc, char **argv) {
         cout<<'('<<token_type[i]<<",\""<<token_input[i]<<"\","<<token_linenum[i]<<')'<<endl;
     cout<<"list_lize<total tokens> = "<<token_type.size();
     cout<<endl;*/
-    dataLogProgram(token_type,token_input,token_linenum);
-    print_out_string();
+    DatalogProgram dlpg1(token_type,token_input,token_linenum);
+    cout<<dlpg1.datalogProgram_string();
 
     return 0;
 }

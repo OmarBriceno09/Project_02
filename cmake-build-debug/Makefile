@@ -123,32 +123,113 @@ Project_02/fast:
 	$(MAKE) -f CMakeFiles/Project_02.dir/build.make CMakeFiles/Project_02.dir/build
 .PHONY : Project_02/fast
 
-datalogGrammar.o: datalogGrammar.cpp.o
+DatalogProgram.o: DatalogProgram.cpp.o
 
-.PHONY : datalogGrammar.o
+.PHONY : DatalogProgram.o
 
 # target to build an object file
-datalogGrammar.cpp.o:
-	$(MAKE) -f CMakeFiles/Project_02.dir/build.make CMakeFiles/Project_02.dir/datalogGrammar.cpp.o
-.PHONY : datalogGrammar.cpp.o
+DatalogProgram.cpp.o:
+	$(MAKE) -f CMakeFiles/Project_02.dir/build.make CMakeFiles/Project_02.dir/DatalogProgram.cpp.o
+.PHONY : DatalogProgram.cpp.o
 
-datalogGrammar.i: datalogGrammar.cpp.i
+DatalogProgram.i: DatalogProgram.cpp.i
 
-.PHONY : datalogGrammar.i
+.PHONY : DatalogProgram.i
 
 # target to preprocess a source file
-datalogGrammar.cpp.i:
-	$(MAKE) -f CMakeFiles/Project_02.dir/build.make CMakeFiles/Project_02.dir/datalogGrammar.cpp.i
-.PHONY : datalogGrammar.cpp.i
+DatalogProgram.cpp.i:
+	$(MAKE) -f CMakeFiles/Project_02.dir/build.make CMakeFiles/Project_02.dir/DatalogProgram.cpp.i
+.PHONY : DatalogProgram.cpp.i
 
-datalogGrammar.s: datalogGrammar.cpp.s
+DatalogProgram.s: DatalogProgram.cpp.s
 
-.PHONY : datalogGrammar.s
+.PHONY : DatalogProgram.s
 
 # target to generate assembly for a file
-datalogGrammar.cpp.s:
-	$(MAKE) -f CMakeFiles/Project_02.dir/build.make CMakeFiles/Project_02.dir/datalogGrammar.cpp.s
-.PHONY : datalogGrammar.cpp.s
+DatalogProgram.cpp.s:
+	$(MAKE) -f CMakeFiles/Project_02.dir/build.make CMakeFiles/Project_02.dir/DatalogProgram.cpp.s
+.PHONY : DatalogProgram.cpp.s
+
+Parameter.o: Parameter.cpp.o
+
+.PHONY : Parameter.o
+
+# target to build an object file
+Parameter.cpp.o:
+	$(MAKE) -f CMakeFiles/Project_02.dir/build.make CMakeFiles/Project_02.dir/Parameter.cpp.o
+.PHONY : Parameter.cpp.o
+
+Parameter.i: Parameter.cpp.i
+
+.PHONY : Parameter.i
+
+# target to preprocess a source file
+Parameter.cpp.i:
+	$(MAKE) -f CMakeFiles/Project_02.dir/build.make CMakeFiles/Project_02.dir/Parameter.cpp.i
+.PHONY : Parameter.cpp.i
+
+Parameter.s: Parameter.cpp.s
+
+.PHONY : Parameter.s
+
+# target to generate assembly for a file
+Parameter.cpp.s:
+	$(MAKE) -f CMakeFiles/Project_02.dir/build.make CMakeFiles/Project_02.dir/Parameter.cpp.s
+.PHONY : Parameter.cpp.s
+
+Predicate.o: Predicate.cpp.o
+
+.PHONY : Predicate.o
+
+# target to build an object file
+Predicate.cpp.o:
+	$(MAKE) -f CMakeFiles/Project_02.dir/build.make CMakeFiles/Project_02.dir/Predicate.cpp.o
+.PHONY : Predicate.cpp.o
+
+Predicate.i: Predicate.cpp.i
+
+.PHONY : Predicate.i
+
+# target to preprocess a source file
+Predicate.cpp.i:
+	$(MAKE) -f CMakeFiles/Project_02.dir/build.make CMakeFiles/Project_02.dir/Predicate.cpp.i
+.PHONY : Predicate.cpp.i
+
+Predicate.s: Predicate.cpp.s
+
+.PHONY : Predicate.s
+
+# target to generate assembly for a file
+Predicate.cpp.s:
+	$(MAKE) -f CMakeFiles/Project_02.dir/build.make CMakeFiles/Project_02.dir/Predicate.cpp.s
+.PHONY : Predicate.cpp.s
+
+Rule.o: Rule.cpp.o
+
+.PHONY : Rule.o
+
+# target to build an object file
+Rule.cpp.o:
+	$(MAKE) -f CMakeFiles/Project_02.dir/build.make CMakeFiles/Project_02.dir/Rule.cpp.o
+.PHONY : Rule.cpp.o
+
+Rule.i: Rule.cpp.i
+
+.PHONY : Rule.i
+
+# target to preprocess a source file
+Rule.cpp.i:
+	$(MAKE) -f CMakeFiles/Project_02.dir/build.make CMakeFiles/Project_02.dir/Rule.cpp.i
+.PHONY : Rule.cpp.i
+
+Rule.s: Rule.cpp.s
+
+.PHONY : Rule.s
+
+# target to generate assembly for a file
+Rule.cpp.s:
+	$(MAKE) -f CMakeFiles/Project_02.dir/build.make CMakeFiles/Project_02.dir/Rule.cpp.s
+.PHONY : Rule.cpp.s
 
 main.o: main.cpp.o
 
@@ -240,9 +321,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Project_02"
 	@echo "... edit_cache"
-	@echo "... datalogGrammar.o"
-	@echo "... datalogGrammar.i"
-	@echo "... datalogGrammar.s"
+	@echo "... DatalogProgram.o"
+	@echo "... DatalogProgram.i"
+	@echo "... DatalogProgram.s"
+	@echo "... Parameter.o"
+	@echo "... Parameter.i"
+	@echo "... Parameter.s"
+	@echo "... Predicate.o"
+	@echo "... Predicate.i"
+	@echo "... Predicate.s"
+	@echo "... Rule.o"
+	@echo "... Rule.i"
+	@echo "... Rule.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

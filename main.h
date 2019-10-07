@@ -10,6 +10,7 @@
 #include <ctype.h>
 #include <vector>
 #include <bits/stdc++.h>
+#include "DatalogProgram.h"
 
 using namespace std;
 
@@ -29,87 +30,5 @@ bool is_it_keyid(string);
 
 void tokenizing_state_machine(ifstream&,vector<string>&, vector<string>&, vector<int>&);
 void push_to_input_vectors(string, string, int, vector<string>&, vector<string>&, vector<int>&);
-
-void dataLogProgram(vector<string>&, vector<string>&, vector<int>&);
-
-void schemeList(int&, vector<string>&, vector<string>&, vector<int>&);
-void factList(int&, vector<string>&, vector<string>&, vector<int>&);
-void ruleList(int&, vector<string>&, vector<string>&, vector<int>&);
-void queryList(int&, vector<string>&, vector<string>&, vector<int>&);
-
-void scheme(int&, vector<string>&, vector<string>&, vector<int>&);
-void fact(int&, vector<string>&, vector<string>&, vector<int>&);
-void rule(int&, vector<string>&, vector<string>&, vector<int>&);
-void query(int&, vector<string>&, vector<string>&, vector<int>&);
-
-void headPredicate(int&, vector<string>&, vector<string>&, vector<int>&, string&);
-void predicate(int&, vector<string>&, vector<string>&, vector<int>&, string&);
-
-void predicateList(int&, vector<string>&, vector<string>&, vector<int>&, string&);
-void parameterList(int&, vector<string>&, vector<string>&, vector<int>&, string&);
-void stringList(int&, vector<string>&, vector<string>&, vector<int>&, string&);
-void idList(int&, vector<string>&, vector<string>&, vector<int>&, string&);
-
-void parameter(int&, vector<string>&, vector<string>&, vector<int>&, string&);
-void expression(int&, vector<string>&, vector<string>&, vector<int>&, string&);
-void the_operator(int&, vector<string>&, vector<string>&, vector<int>&, string&);
-
-bool does_token_match(string, const string[], int);
-void print_out_string();
-
-//declaring first sets
-const string dP_first = "SCHEMES";
-const string schL_first[2]= {"ID", ""};
-const string fctL_first[2]= {"ID", ""};
-const string rlL_first[2]= {"ID", ""};
-const string qryL_first[2]= {"ID", ""};
-const string sch_first = "ID";
-const string fct_first = "ID";
-const string rl_first = "ID";
-const string qry_first = "ID";
-const string hPd_first = "ID";
-const string pd_first = "ID";
-const string pdL_first[2] = {"COMMA",""};
-const string prmtL_first[2] = {"COMMA",""};
-const string strL_first[2] = {"COMMA",""};
-const string idL_first[2] = {"COMMA",""};
-const string prmt_first[3] = {"STRING","ID","LEFT_PAREN"};
-const string exp_first = "LEFT_PAREN";
-const string opt_first[2] = {"ADD","MULTIPLY"};
-
-//declaring follow sets
-const string dP_follow = "EOF";
-const string schL_follow[15]= {"COMMA","PERIOD","Q_MARK","LEFT_PAREN","RIGHT_PAREN","COLON","COLON_DASH",
-                         "MULTIPLY","ADD","FACTS","RULES","QUERIES","ID","STRING","EOF"};
-const string fctL_follow[14]= {"COMMA","PERIOD","Q_MARK","LEFT_PAREN","RIGHT_PAREN","COLON","COLON_DASH",
-                         "MULTIPLY","ADD","RULES","QUERIES","ID","STRING","EOF"};
-const string rlL_follow[11]= {"COMMA","Q_MARK","LEFT_PAREN","RIGHT_PAREN","COLON","MULTIPLY","ADD",
-                        "QUERIES","ID","STRING","EOF"};
-const string qryL_follow= "EOF";
-const string sch_follow[15] = {"COMMA","PERIOD","Q_MARK","LEFT_PAREN","RIGHT_PAREN","COLON","COLON_DASH",
-                         "MULTIPLY","ADD","FACTS","RULES","QUERIES","ID","STRING","EOF"};
-const string fct_follow[14] = {"COMMA","PERIOD","Q_MARK","LEFT_PAREN","RIGHT_PAREN","COLON","COLON_DASH",
-                         "MULTIPLY","ADD","RULES","QUERIES","ID","STRING","EOF"};
-const string rl_follow[11] = {"COMMA","Q_MARK","LEFT_PAREN","RIGHT_PAREN","COLON","MULTIPLY","ADD",
-                        "QUERIES","ID","STRING","EOF"};
-const string qry_follow[9] = {"COMMA","Q_MARK","LEFT_PAREN","RIGHT_PAREN","MULTIPLY","ADD","ID","STRING","EOF"};
-const string hPd_follow[13] = {"COMMA","PERIOD","Q_MARK","LEFT_PAREN","RIGHT_PAREN","COLON","COLON_DASH",
-                         "MULTIPLY","ADD","QUERIES","ID","STRING","EOF"};
-const string pd_follow[12] = {"COMMA","PERIOD","Q_MARK","LEFT_PAREN","RIGHT_PAREN","COLON",
-                        "MULTIPLY","ADD","QUERIES","ID","STRING","EOF"};
-const string pdL_follow[12] = {"COMMA","PERIOD","Q_MARK","LEFT_PAREN","RIGHT_PAREN","COLON",
-                         "MULTIPLY","ADD","QUERIES","ID","STRING","EOF"};
-const string prmtL_follow[12] = {"COMMA","PERIOD","Q_MARK","LEFT_PAREN","RIGHT_PAREN","COLON",
-                           "MULTIPLY","ADD","QUERIES","ID","STRING","EOF"};
-const string strL_follow[14] = {"COMMA","PERIOD","Q_MARK","LEFT_PAREN","RIGHT_PAREN","COLON","COLON_DASH",
-                          "MULTIPLY","ADD","RULES","QUERIES","ID","STRING","EOF"};
-const string idL_follow[15]= {"COMMA","PERIOD","Q_MARK","LEFT_PAREN","RIGHT_PAREN","COLON","COLON_DASH",
-                        "MULTIPLY","ADD","FACTS","RULES","QUERIES","ID","STRING","EOF"};
-const string prmt_follow[12] = {"COMMA","PERIOD","Q_MARK","LEFT_PAREN","RIGHT_PAREN","COLON",
-                          "MULTIPLY","ADD","QUERIES","ID","STRING","EOF"};
-const string exp_follow[12] = {"COMMA","PERIOD","Q_MARK","LEFT_PAREN","RIGHT_PAREN","COLON",
-                         "MULTIPLY","ADD","QUERIES","ID","STRING","EOF"};
-const string opt_follow[12] = {"COMMA","PERIOD","Q_MARK","LEFT_PAREN","RIGHT_PAREN","COLON",
-                         "MULTIPLY","ADD","QUERIES","ID","STRING","EOF"};
 
 #endif //CS236_PROJECT_02_MAIN_H
