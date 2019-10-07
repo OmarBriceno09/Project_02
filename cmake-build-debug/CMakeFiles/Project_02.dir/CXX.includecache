@@ -6,9 +6,27 @@
 
 #IncludeRegexTransform: 
 
+/cygdrive/c/Users/OmarB/Desktop/BYU-2019FALL/CS-236/Project_02/./main.h
+fstream
+-
+iostream
+-
+stdio.h
+-
+ctype.h
+-
+vector
+-
+bits/stdc++.h
+-
+
 /cygdrive/c/Users/OmarB/Desktop/BYU-2019FALL/CS-236/Project_02/datalogGrammar.cpp
 main.h
 /cygdrive/c/Users/OmarB/Desktop/BYU-2019FALL/CS-236/Project_02/main.h
+
+/cygdrive/c/Users/OmarB/Desktop/BYU-2019FALL/CS-236/Project_02/main.cpp
+./main.h
+/cygdrive/c/Users/OmarB/Desktop/BYU-2019FALL/CS-236/Project_02/./main.h
 
 /cygdrive/c/Users/OmarB/Desktop/BYU-2019FALL/CS-236/Project_02/main.h
 fstream
@@ -21,4 +39,14 @@ ctype.h
 -
 vector
 -
+bits/stdc++.h
+-
+
+/cygdrive/c/Users/OmarB/Desktop/BYU-2019FALL/CS-236/Project_02/state_transitions.cpp
+main.h
+/cygdrive/c/Users/OmarB/Desktop/BYU-2019FALL/CS-236/Project_02/main.h
+
+/cygdrive/c/Users/OmarB/Desktop/BYU-2019FALL/CS-236/Project_02/tokenizer.cpp
+main.h
+/cygdrive/c/Users/OmarB/Desktop/BYU-2019FALL/CS-236/Project_02/main.h
 

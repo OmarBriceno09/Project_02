@@ -66,7 +66,7 @@ void dataLogProgram(vector<string> &token_type, vector<string> &token_input, vec
         sort(domains.begin(),domains.end());
         domains.erase( unique( domains.begin(), domains.end() ), domains.end() );
         the_output+="\nDomain("+to_string(domains.size())+"):";
-        for(int i =0; i<domains.size(); i++){
+        for(int i =0; i<(int)domains.size(); i++){
             the_output+="\n"+domains[i];
         }
         the_output+="\n";
